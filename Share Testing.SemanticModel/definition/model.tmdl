@@ -6,17 +6,15 @@ model Model
 		legacyRedirects
 		returnErrorValuesAsNull
 
-annotation PBI_QueryOrder = ["financials"]
+annotation PBI_QueryOrder = []
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBIDesktopVersion = 2.131.901.0 (24.07)
+annotation PBIDesktopVersion = 2.131.1126.0 (24.07)
 
 annotation PBI_ProTooling = ["DevMode"]
 
 ref table DateTableTemplate_3f55ade3-6e82-4b5a-b37b-b376a43cfaf2
-ref table financials
-ref table LocalDateTable_916b3d75-dbb2-465c-bdea-5887781e0739
 
 ref cultureInfo en-US
 
