@@ -10,13 +10,13 @@ annotation PBI_QueryOrder = ["financials"]
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBIDesktopVersion = 2.131.1126.0 (24.07)
+annotation PBIDesktopVersion = 2.131.901.0 (24.07)
 
 annotation PBI_ProTooling = ["DevMode"]
 
-ref table financials
 ref table DateTableTemplate_3f55ade3-6e82-4b5a-b37b-b376a43cfaf2
-ref table LocalDateTable_f9887799-55b5-4407-83ed-131272d71d81
+ref table financials
+ref table LocalDateTable_916b3d75-dbb2-465c-bdea-5887781e0739
 
 ref cultureInfo en-US
 

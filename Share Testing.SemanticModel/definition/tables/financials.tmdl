@@ -1,9 +1,9 @@
 table financials
-	lineageTag: e9c2e178-24de-47cd-ac47-c7f48fdd50f2
+	lineageTag: d42caf26-0ab4-45ed-9c01-94e8414c399a
 
 	column Segment
 		dataType: string
-		lineageTag: 1d8e783c-a0ca-4b4e-8e71-b4cc4c196110
+		lineageTag: 3fc0f1c2-591d-44d4-89ac-8d5e36a32e75
 		summarizeBy: none
 		sourceColumn: Segment
 
@@ -11,7 +11,7 @@ table financials
 
 	column Country
 		dataType: string
-		lineageTag: 223f19f0-a35d-4f45-994c-afccde0a38e4
+		lineageTag: 029a97ba-314e-471c-ac88-5cd7689971fd
 		summarizeBy: none
 		sourceColumn: Country
 
@@ -19,7 +19,7 @@ table financials
 
 	column Product
 		dataType: string
-		lineageTag: c4be01dd-a3e4-4661-84d7-f7b03dc42fe4
+		lineageTag: f60c6d3c-68b7-4f84-ae6d-febb8d4615e3
 		summarizeBy: none
 		sourceColumn: Product
 
@@ -27,7 +27,7 @@ table financials
 
 	column 'Discount Band'
 		dataType: string
-		lineageTag: 07f39d86-43ae-4abf-ac2d-bf3ec8e05799
+		lineageTag: d286bf09-c096-4b46-90ef-68983bcfda20
 		summarizeBy: none
 		sourceColumn: Discount Band
 
@@ -35,7 +35,7 @@ table financials
 
 	column 'Units Sold'
 		dataType: double
-		lineageTag: 10e7e3c9-a57e-4840-94b8-8157d7a832f7
+		lineageTag: 4ad0ef50-0c2e-4038-b4c7-decccdb4d04c
 		summarizeBy: sum
 		sourceColumn: Units Sold
 
@@ -46,7 +46,7 @@ table financials
 	column 'Manufacturing Price'
 		dataType: int64
 		formatString: 0
-		lineageTag: d6e57b40-f870-4d55-a501-d5247772fc44
+		lineageTag: 046c327f-559e-4cd7-96df-4d02847e6091
 		summarizeBy: sum
 		sourceColumn: Manufacturing Price
 
@@ -55,7 +55,7 @@ table financials
 	column 'Sale Price'
 		dataType: int64
 		formatString: 0
-		lineageTag: 43d90cce-0dd0-4525-adbf-122c259c8ae9
+		lineageTag: 4c21203d-0aba-4a0d-9b10-3d97252e78cf
 		summarizeBy: sum
 		sourceColumn: Sale Price
 
@@ -63,7 +63,7 @@ table financials
 
 	column 'Gross Sales'
 		dataType: double
-		lineageTag: 510d56c9-047a-4641-b886-31e772f37ff7
+		lineageTag: 905bded7-8192-4fd6-9697-a0f0d1c10263
 		summarizeBy: sum
 		sourceColumn: Gross Sales
 
@@ -73,7 +73,7 @@ table financials
 
 	column Discounts
 		dataType: double
-		lineageTag: 0bdd02f2-84d6-430f-8921-2dbbff7b5eca
+		lineageTag: 14795882-e812-4e94-8a1e-964a15a81136
 		summarizeBy: sum
 		sourceColumn: Discounts
 
@@ -83,7 +83,7 @@ table financials
 
 	column ' Sales'
 		dataType: double
-		lineageTag: 19533951-5aac-4bda-9cd2-b3c6503c5ec6
+		lineageTag: e7e6c1ce-bdcf-4397-a4f9-156d24db06a0
 		summarizeBy: sum
 		sourceColumn: " Sales"
 
@@ -93,7 +93,7 @@ table financials
 
 	column COGS
 		dataType: double
-		lineageTag: 58fa1726-889f-4d68-abf2-79feb75c7627
+		lineageTag: dab51a79-7ee4-4809-9bff-2ebd8f365e0d
 		summarizeBy: sum
 		sourceColumn: COGS
 
@@ -103,7 +103,7 @@ table financials
 
 	column Profit
 		dataType: double
-		lineageTag: eb74f68e-53af-494f-8cd7-45eec1fb1c0c
+		lineageTag: 7b7a3e9e-d095-4f56-aa18-d8986b98f796
 		summarizeBy: sum
 		sourceColumn: Profit
 
@@ -114,14 +114,14 @@ table financials
 	column Date
 		dataType: dateTime
 		formatString: Long Date
-		lineageTag: ae395a69-8c14-4087-858b-a157130c5c10
+		lineageTag: c36ef458-7c8b-4ee6-8f0f-931f0b60cd2d
 		summarizeBy: none
 		sourceColumn: Date
 
 		variation Variation
 			isDefault
-			relationship: 4c077a5b-1949-43a3-a836-231433b4f8c9
-			defaultHierarchy: LocalDateTable_f9887799-55b5-4407-83ed-131272d71d81.'Date Hierarchy'
+			relationship: ad0ab7ca-bbbf-448b-ae6d-244e21c27b83
+			defaultHierarchy: LocalDateTable_916b3d75-dbb2-465c-bdea-5887781e0739.'Date Hierarchy'
 
 		annotation SummarizationSetBy = Automatic
 
@@ -130,7 +130,7 @@ table financials
 	column 'Month Number'
 		dataType: int64
 		formatString: 0
-		lineageTag: aae22c0b-69f4-461d-a1e7-ac34c9c87c73
+		lineageTag: 2ef88a20-ab67-418d-b7b1-623b0e030327
 		summarizeBy: sum
 		sourceColumn: Month Number
 
@@ -138,7 +138,7 @@ table financials
 
 	column 'Month Name'
 		dataType: string
-		lineageTag: 0692e77f-b130-4b84-95f1-089885ccb913
+		lineageTag: 61056fdb-d962-486f-a472-5413d36ab7ff
 		summarizeBy: none
 		sourceColumn: Month Name
 
@@ -147,7 +147,7 @@ table financials
 	column Year
 		dataType: int64
 		formatString: 0
-		lineageTag: 32a81103-d517-4a25-a78f-c664ee0f65a9
+		lineageTag: 84c858bd-232b-40c2-98ef-c9ba1ae0f464
 		summarizeBy: sum
 		sourceColumn: Year
 
@@ -157,7 +157,7 @@ table financials
 		mode: import
 		source =
 				let
-				 Source = Excel.Workbook(File.Contents("C:\Program Files\WindowsApps\Microsoft.MicrosoftPowerBIDesktop_2.131.1126.0_x64__8wekyb3d8bbwe\bin\SampleData\Financial Sample.xlsx"), null, true),
+				 Source = Excel.Workbook(File.Contents("C:\Program Files\WindowsApps\Microsoft.MicrosoftPowerBIDesktop_2.131.901.0_x64__8wekyb3d8bbwe\bin\SampleData\Financial Sample.xlsx"), null, true),
 				    financials_Table = Source{[Item="financials",Kind="Table"]}[Data],
 				    #"Changed Type" = Table.TransformColumnTypes(financials_Table,{{"Segment", type text}, {"Country", type text}, {"Product", type text}, {"Discount Band", type text}, {"Units Sold", type number}, {"Manufacturing Price", Int64.Type}, {"Sale Price", Int64.Type}, {"Gross Sales", type number}, {"Discounts", type number}, {" Sales", type number}, {"COGS", type number}, {"Profit", type number}, {"Date", type date}, {"Month Number", Int64.Type}, {"Month Name", type text}, {"Year", Int64.Type}})
 				in
